@@ -1,6 +1,13 @@
 
 ## 2026-08-10
 
-- Today's topic: **Linux**
-- Automated daily development log entry.
+### Git — Git Commits
 
+A Git commit records a snapshot of tracked project state along with metadata such as its author, timestamp, message, and parent commit.
+
+**Why it matters:**  
+Understanding commits as snapshots rather than simple diffs makes Git's branching and history model much easier to reason about.
+
+**Tags:** `git`, `version-control`, `software-engineering`
+
+---

@@ -17,30 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate daily entry
-        run: |
-          DATE=$(date -u +"%Y-%m-%d")
-
-          TOPICS=(
-            "Quantum Computing"
-            "Git"
-            "Linux"
-            "Python"
-            "Computer Architecture"
-            "Algorithms"
-            "Operating Systems"
-            "Networking"
-            "Cybersecurity"
-            "Artificial Intelligence"
-          )
-
-          RANDOM_TOPIC=${TOPICS[$RANDOM % ${#TOPICS[@]}]}
-
-          echo "" >> daily-log.md
-          echo "## $DATE" >> daily-log.md
-          echo "" >> daily-log.md
-          echo "- Today's topic: **$RANDOM_TOPIC**" >> daily-log.md
-          echo "- Automated daily development log entry." >> daily-log.md
-          echo "" >> daily-log.md
+        run: python3 scripts/generate.py
 
       - name: Commit changes
         run: |
@@ -48,5 +25,11 @@ jobs:
           git config user.email "Ayush-Iyer1611@users.noreply.github.com"
 
           git add daily-log.md
-          git commit -m "chore: daily dev log update" || exit 0
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "docs: daily CS knowledge entry"
           git push
