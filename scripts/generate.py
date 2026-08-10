@@ -10,7 +10,7 @@ TOPICS = [
         "category": "Quantum Computing",
         "title": "Qubits and Superposition",
         "body": "A qubit can exist in a linear combination of the computational basis states |0⟩ and |1⟩. Its state can be written as α|0⟩ + β|1⟩, where the probability amplitudes satisfy |α|² + |β|² = 1.",
-        "why": "Superposition is one of the fundamental resources that allows quantum algorithms to process amplitudes rather than classical bit values.",
+        "why": "Superposition is one of the fundamental resources that allows quantum algorithms to manipulate probability amplitudes rather than classical bit values.",
         "tags": ["quantum-computing", "qubits", "quantum-mechanics"],
     },
     {
@@ -23,7 +23,7 @@ TOPICS = [
     {
         "category": "Quantum Computing",
         "title": "Quantum Measurement",
-        "body": "Measurement maps a quantum state to a classical outcome according to the probabilities determined by the state's amplitudes.",
+        "body": "Measurement maps a quantum state to a classical outcome according to probabilities determined by the state's amplitudes.",
         "why": "Understanding measurement is essential because quantum algorithms ultimately need to extract classical information from a quantum system.",
         "tags": ["quantum-computing", "measurement", "quantum-mechanics"],
     },
@@ -120,13 +120,23 @@ TOPICS = [
     },
 ]
 
+
 def select_topic(date: str):
     seed = int(hashlib.sha256(date.encode()).hexdigest(), 16)
     rng = random.Random(seed)
     return rng.choice(TOPICS)
 
+
 def main():
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    # Prevent duplicate entries if the workflow runs more than once today.
+    existing_log = LOG_FILE.read_text(encoding="utf-8") if LOG_FILE.exists() else ""
+
+    if f"## {today}" in existing_log:
+        print(f"Entry for {today} already exists. Nothing to do.")
+        return
+
     topic = select_topic(today)
 
     entry = f"""
@@ -148,6 +158,7 @@ def main():
         file.write(entry)
 
     print(f"Generated entry: {topic['title']}")
+
 
 if __name__ == "__main__":
     main()
