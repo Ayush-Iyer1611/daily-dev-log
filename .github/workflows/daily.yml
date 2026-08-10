@@ -1,0 +1,52 @@
+name: Daily Dev Log
+
+on:
+  schedule:
+    - cron: "17 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  daily-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate daily entry
+        run: |
+          DATE=$(date -u +"%Y-%m-%d")
+
+          TOPICS=(
+            "Quantum Computing"
+            "Git"
+            "Linux"
+            "Python"
+            "Computer Architecture"
+            "Algorithms"
+            "Operating Systems"
+            "Networking"
+            "Cybersecurity"
+            "Artificial Intelligence"
+          )
+
+          RANDOM_TOPIC=${TOPICS[$RANDOM % ${#TOPICS[@]}]}
+
+          echo "" >> daily-log.md
+          echo "## $DATE" >> daily-log.md
+          echo "" >> daily-log.md
+          echo "- Today's topic: **$RANDOM_TOPIC**" >> daily-log.md
+          echo "- Automated daily development log entry." >> daily-log.md
+          echo "" >> daily-log.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "Ayush-Iyer1611"
+          git config user.email "Ayush-Iyer1611@users.noreply.github.com"
+
+          git add daily-log.md
+          git commit -m "chore: daily dev log update" || exit 0
+          git push
