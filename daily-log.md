@@ -63,3 +63,16 @@ Cryptographic hashes are fundamental to integrity verification, password storage
 **Tags:** `cybersecurity`, `cryptography`, `hashing`
 
 ---
+
+## 2026-08-14
+
+### Operating Systems — Virtual Memory
+
+Virtual memory provides processes with an abstraction of a large, private address space while the operating system and hardware map virtual addresses onto physical memory.
+
+**Why it matters:**  
+It provides isolation, simplifies memory management, and allows systems to use storage as an extension of physical memory.
+
+**Tags:** `operating-systems`, `memory`, `OS`
+
+---
