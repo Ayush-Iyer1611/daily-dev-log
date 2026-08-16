@@ -89,3 +89,16 @@ Cryptographic hashes are fundamental to integrity verification, password storage
 **Tags:** `cybersecurity`, `cryptography`, `hashing`
 
 ---
+
+## 2026-08-16
+
+### Python — Python Generators
+
+Generators produce values lazily using iteration rather than constructing the entire result in memory at once.
+
+**Why it matters:**  
+Lazy evaluation can significantly reduce memory usage when processing large or streaming datasets.
+
+**Tags:** `python`, `generators`, `programming`
+
+---
