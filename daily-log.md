@@ -115,3 +115,16 @@ Understanding this distinction is fundamental to concurrency, scheduling, and ap
 **Tags:** `operating-systems`, `threads`, `processes`
 
 ---
+
+## 2026-08-18
+
+### Quantum Computing — Zero-Noise Extrapolation
+
+Zero-noise extrapolation estimates a noiseless expectation value by evaluating a circuit at multiple effective noise levels and extrapolating toward zero noise.
+
+**Why it matters:**  
+ZNE is one of the major techniques used to extract more useful information from noisy quantum hardware.
+
+**Tags:** `quantum-computing`, `QEM`, `ZNE`
+
+---
