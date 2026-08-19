@@ -128,3 +128,16 @@ ZNE is one of the major techniques used to extract more useful information from 
 **Tags:** `quantum-computing`, `QEM`, `ZNE`
 
 ---
+
+## 2026-08-19
+
+### Python — Python Generators
+
+Generators produce values lazily using iteration rather than constructing the entire result in memory at once.
+
+**Why it matters:**  
+Lazy evaluation can significantly reduce memory usage when processing large or streaming datasets.
+
+**Tags:** `python`, `generators`, `programming`
+
+---
