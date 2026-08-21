@@ -154,3 +154,16 @@ Cryptographic hashes are fundamental to integrity verification, password storage
 **Tags:** `cybersecurity`, `cryptography`, `hashing`
 
 ---
+
+## 2026-08-21
+
+### Quantum Computing — Qubits and Superposition
+
+A qubit can exist in a linear combination of the computational basis states |0⟩ and |1⟩. Its state can be written as α|0⟩ + β|1⟩, where the probability amplitudes satisfy |α|² + |β|² = 1.
+
+**Why it matters:**  
+Superposition is one of the fundamental resources that allows quantum algorithms to manipulate probability amplitudes rather than classical bit values.
+
+**Tags:** `quantum-computing`, `qubits`, `quantum-mechanics`
+
+---
