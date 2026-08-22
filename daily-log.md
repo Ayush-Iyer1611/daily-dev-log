@@ -167,3 +167,16 @@ Superposition is one of the fundamental resources that allows quantum algorithms
 **Tags:** `quantum-computing`, `qubits`, `quantum-mechanics`
 
 ---
+
+## 2026-08-22
+
+### Algorithms — Binary Search
+
+Binary search repeatedly divides a sorted search interval in half, eliminating approximately half of the remaining candidates after each comparison.
+
+**Why it matters:**  
+Its logarithmic time complexity makes it dramatically more scalable than linear search for large sorted datasets.
+
+**Tags:** `algorithms`, `search`, `complexity`
+
+---
