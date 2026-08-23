@@ -180,3 +180,16 @@ Its logarithmic time complexity makes it dramatically more scalable than linear 
 **Tags:** `algorithms`, `search`, `complexity`
 
 ---
+
+## 2026-08-23
+
+### Quantum Computing — Zero-Noise Extrapolation
+
+Zero-noise extrapolation estimates a noiseless expectation value by evaluating a circuit at multiple effective noise levels and extrapolating toward zero noise.
+
+**Why it matters:**  
+ZNE is one of the major techniques used to extract more useful information from noisy quantum hardware.
+
+**Tags:** `quantum-computing`, `QEM`, `ZNE`
+
+---
