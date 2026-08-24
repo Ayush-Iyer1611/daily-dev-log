@@ -193,3 +193,16 @@ ZNE is one of the major techniques used to extract more useful information from 
 **Tags:** `quantum-computing`, `QEM`, `ZNE`
 
 ---
+
+## 2026-08-24
+
+### Quantum Computing — Quantum Entanglement
+
+Entanglement occurs when the joint state of multiple quantum systems cannot be described as independent states of the individual systems.
+
+**Why it matters:**  
+Entanglement is central to protocols such as quantum teleportation, superdense coding, and many quantum algorithms.
+
+**Tags:** `quantum-computing`, `entanglement`, `quantum-information`
+
+---
