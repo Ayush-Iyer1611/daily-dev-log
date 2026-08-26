@@ -219,3 +219,16 @@ Modern processors exploit locality through multiple levels of cache to reduce th
 **Tags:** `architecture`, `CPU`, `cache`
 
 ---
+
+## 2026-08-26
+
+### Operating Systems — Process vs Thread
+
+A process is an independent execution environment with its own address space, while threads within a process share that process's memory resources.
+
+**Why it matters:**  
+Understanding this distinction is fundamental to concurrency, scheduling, and application architecture.
+
+**Tags:** `operating-systems`, `threads`, `processes`
+
+---
