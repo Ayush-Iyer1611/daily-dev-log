@@ -258,3 +258,16 @@ Understanding this distinction is fundamental to concurrency, scheduling, and ap
 **Tags:** `operating-systems`, `threads`, `processes`
 
 ---
+
+## 2026-08-29
+
+### Quantum Computing — Quantum Error Mitigation
+
+Quantum error mitigation attempts to reduce the effect of noise in computation results without necessarily performing full fault-tolerant error correction.
+
+**Why it matters:**  
+QEM is particularly relevant to noisy intermediate-scale quantum devices where hardware noise remains significant.
+
+**Tags:** `quantum-computing`, `QEM`, `NISQ`
+
+---
