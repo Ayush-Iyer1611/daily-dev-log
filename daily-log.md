@@ -297,3 +297,16 @@ It provides isolation, simplifies memory management, and allows systems to use s
 **Tags:** `operating-systems`, `memory`, `OS`
 
 ---
+
+## 2026-09-01
+
+### Quantum Computing — Quantum Entanglement
+
+Entanglement occurs when the joint state of multiple quantum systems cannot be described as independent states of the individual systems.
+
+**Why it matters:**  
+Entanglement is central to protocols such as quantum teleportation, superdense coding, and many quantum algorithms.
+
+**Tags:** `quantum-computing`, `entanglement`, `quantum-information`
+
+---
