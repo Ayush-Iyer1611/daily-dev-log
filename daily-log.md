@@ -323,3 +323,16 @@ It provides isolation, simplifies memory management, and allows systems to use s
 **Tags:** `operating-systems`, `memory`, `OS`
 
 ---
+
+## 2026-09-03
+
+### Cybersecurity — Hash Functions
+
+A cryptographic hash function maps arbitrary input data to a fixed-size digest and is designed to make finding collisions or reversing the input computationally difficult.
+
+**Why it matters:**  
+Cryptographic hashes are fundamental to integrity verification, password storage systems, and many security protocols.
+
+**Tags:** `cybersecurity`, `cryptography`, `hashing`
+
+---
