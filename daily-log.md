@@ -362,3 +362,16 @@ Superposition is one of the fundamental resources that allows quantum algorithms
 **Tags:** `quantum-computing`, `qubits`, `quantum-mechanics`
 
 ---
+
+## 2026-09-06
+
+### Quantum Computing — Quantum Measurement
+
+Measurement maps a quantum state to a classical outcome according to probabilities determined by the state's amplitudes.
+
+**Why it matters:**  
+Understanding measurement is essential because quantum algorithms ultimately need to extract classical information from a quantum system.
+
+**Tags:** `quantum-computing`, `measurement`, `quantum-mechanics`
+
+---
