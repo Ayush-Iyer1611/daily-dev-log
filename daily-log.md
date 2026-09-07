@@ -375,3 +375,16 @@ Understanding measurement is essential because quantum algorithms ultimately nee
 **Tags:** `quantum-computing`, `measurement`, `quantum-mechanics`
 
 ---
+
+## 2026-09-07
+
+### Python — Python Generators
+
+Generators produce values lazily using iteration rather than constructing the entire result in memory at once.
+
+**Why it matters:**  
+Lazy evaluation can significantly reduce memory usage when processing large or streaming datasets.
+
+**Tags:** `python`, `generators`, `programming`
+
+---
