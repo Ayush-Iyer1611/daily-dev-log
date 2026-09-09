@@ -401,3 +401,16 @@ Understanding this distinction is fundamental to concurrency, scheduling, and ap
 **Tags:** `operating-systems`, `threads`, `processes`
 
 ---
+
+## 2026-09-09
+
+### Cybersecurity — Hash Functions
+
+A cryptographic hash function maps arbitrary input data to a fixed-size digest and is designed to make finding collisions or reversing the input computationally difficult.
+
+**Why it matters:**  
+Cryptographic hashes are fundamental to integrity verification, password storage systems, and many security protocols.
+
+**Tags:** `cybersecurity`, `cryptography`, `hashing`
+
+---
