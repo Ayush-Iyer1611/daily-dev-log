@@ -427,3 +427,16 @@ The choice between them depends heavily on whether reliability or low overhead a
 **Tags:** `networking`, `TCP`, `UDP`
 
 ---
+
+## 2026-09-11
+
+### Operating Systems — Virtual Memory
+
+Virtual memory provides processes with an abstraction of a large, private address space while the operating system and hardware map virtual addresses onto physical memory.
+
+**Why it matters:**  
+It provides isolation, simplifies memory management, and allows systems to use storage as an extension of physical memory.
+
+**Tags:** `operating-systems`, `memory`, `OS`
+
+---
