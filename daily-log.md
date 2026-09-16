@@ -492,3 +492,16 @@ ZNE is one of the major techniques used to extract more useful information from 
 **Tags:** `quantum-computing`, `QEM`, `ZNE`
 
 ---
+
+## 2026-09-16
+
+### Computer Architecture — CPU Cache Locality
+
+Programs tend to access memory locations that are close to recently accessed locations or reuse recently accessed data. This is known as spatial and temporal locality.
+
+**Why it matters:**  
+Modern processors exploit locality through multiple levels of cache to reduce the effective cost of memory access.
+
+**Tags:** `architecture`, `CPU`, `cache`
+
+---
