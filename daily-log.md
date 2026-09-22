@@ -570,3 +570,16 @@ QEM is particularly relevant to noisy intermediate-scale quantum devices where h
 **Tags:** `quantum-computing`, `QEM`, `NISQ`
 
 ---
+
+## 2026-09-22
+
+### Python — Python Generators
+
+Generators produce values lazily using iteration rather than constructing the entire result in memory at once.
+
+**Why it matters:**  
+Lazy evaluation can significantly reduce memory usage when processing large or streaming datasets.
+
+**Tags:** `python`, `generators`, `programming`
+
+---
