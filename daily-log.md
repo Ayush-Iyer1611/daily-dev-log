@@ -596,3 +596,16 @@ This lightweight branching model enables parallel development and experimentatio
 **Tags:** `git`, `branches`, `version-control`
 
 ---
+
+## 2026-09-24
+
+### Cybersecurity — Hash Functions
+
+A cryptographic hash function maps arbitrary input data to a fixed-size digest and is designed to make finding collisions or reversing the input computationally difficult.
+
+**Why it matters:**  
+Cryptographic hashes are fundamental to integrity verification, password storage systems, and many security protocols.
+
+**Tags:** `cybersecurity`, `cryptography`, `hashing`
+
+---
