@@ -622,3 +622,16 @@ Cryptographic hashes are fundamental to integrity verification, password storage
 **Tags:** `cybersecurity`, `cryptography`, `hashing`
 
 ---
+
+## 2026-09-26
+
+### Quantum Computing — Quantum Error Mitigation
+
+Quantum error mitigation attempts to reduce the effect of noise in computation results without necessarily performing full fault-tolerant error correction.
+
+**Why it matters:**  
+QEM is particularly relevant to noisy intermediate-scale quantum devices where hardware noise remains significant.
+
+**Tags:** `quantum-computing`, `QEM`, `NISQ`
+
+---
