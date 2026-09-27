@@ -635,3 +635,16 @@ QEM is particularly relevant to noisy intermediate-scale quantum devices where h
 **Tags:** `quantum-computing`, `QEM`, `NISQ`
 
 ---
+
+## 2026-09-27
+
+### Computer Architecture — CPU Cache Locality
+
+Programs tend to access memory locations that are close to recently accessed locations or reuse recently accessed data. This is known as spatial and temporal locality.
+
+**Why it matters:**  
+Modern processors exploit locality through multiple levels of cache to reduce the effective cost of memory access.
+
+**Tags:** `architecture`, `CPU`, `cache`
+
+---
