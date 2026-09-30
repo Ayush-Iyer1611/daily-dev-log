@@ -674,3 +674,16 @@ It is one of the foundational optimization techniques behind the training of man
 **Tags:** `AI`, `machine-learning`, `optimization`
 
 ---
+
+## 2026-09-30
+
+### Networking — TCP vs UDP
+
+TCP provides connection-oriented, reliable and ordered byte-stream delivery, while UDP provides a lightweight datagram-oriented transport without TCP's reliability guarantees.
+
+**Why it matters:**  
+The choice between them depends heavily on whether reliability or low overhead and latency are the dominant requirements.
+
+**Tags:** `networking`, `TCP`, `UDP`
+
+---
