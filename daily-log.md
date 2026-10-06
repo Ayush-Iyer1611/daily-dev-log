@@ -752,3 +752,16 @@ It provides isolation, simplifies memory management, and allows systems to use s
 **Tags:** `operating-systems`, `memory`, `OS`
 
 ---
+
+## 2026-10-06
+
+### Python — Python Generators
+
+Generators produce values lazily using iteration rather than constructing the entire result in memory at once.
+
+**Why it matters:**  
+Lazy evaluation can significantly reduce memory usage when processing large or streaming datasets.
+
+**Tags:** `python`, `generators`, `programming`
+
+---
