@@ -765,3 +765,16 @@ Lazy evaluation can significantly reduce memory usage when processing large or s
 **Tags:** `python`, `generators`, `programming`
 
 ---
+
+## 2026-10-07
+
+### Artificial Intelligence — Gradient Descent
+
+Gradient descent iteratively adjusts model parameters in the direction that decreases an objective function.
+
+**Why it matters:**  
+It is one of the foundational optimization techniques behind the training of many machine-learning models.
+
+**Tags:** `AI`, `machine-learning`, `optimization`
+
+---
