@@ -791,3 +791,16 @@ Cryptographic hashes are fundamental to integrity verification, password storage
 **Tags:** `cybersecurity`, `cryptography`, `hashing`
 
 ---
+
+## 2026-10-09
+
+### Algorithms — Binary Search
+
+Binary search repeatedly divides a sorted search interval in half, eliminating approximately half of the remaining candidates after each comparison.
+
+**Why it matters:**  
+Its logarithmic time complexity makes it dramatically more scalable than linear search for large sorted datasets.
+
+**Tags:** `algorithms`, `search`, `complexity`
+
+---
