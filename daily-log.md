@@ -804,3 +804,16 @@ Its logarithmic time complexity makes it dramatically more scalable than linear 
 **Tags:** `algorithms`, `search`, `complexity`
 
 ---
+
+## 2026-10-10
+
+### Quantum Computing — Quantum Entanglement
+
+Entanglement occurs when the joint state of multiple quantum systems cannot be described as independent states of the individual systems.
+
+**Why it matters:**  
+Entanglement is central to protocols such as quantum teleportation, superdense coding, and many quantum algorithms.
+
+**Tags:** `quantum-computing`, `entanglement`, `quantum-information`
+
+---
