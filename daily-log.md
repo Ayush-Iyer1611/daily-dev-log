@@ -817,3 +817,16 @@ Entanglement is central to protocols such as quantum teleportation, superdense c
 **Tags:** `quantum-computing`, `entanglement`, `quantum-information`
 
 ---
+
+## 2026-10-11
+
+### Git — Git Commits
+
+A Git commit records a snapshot of tracked project state along with metadata such as its author, timestamp, message, and parent commit.
+
+**Why it matters:**  
+Understanding commits as snapshots rather than simple diffs makes Git's branching and history model much easier to reason about.
+
+**Tags:** `git`, `version-control`, `software-engineering`
+
+---
