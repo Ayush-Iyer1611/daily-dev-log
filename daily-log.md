@@ -856,3 +856,16 @@ Its logarithmic time complexity makes it dramatically more scalable than linear 
 **Tags:** `algorithms`, `search`, `complexity`
 
 ---
+
+## 2026-10-14
+
+### Computer Architecture — CPU Cache Locality
+
+Programs tend to access memory locations that are close to recently accessed locations or reuse recently accessed data. This is known as spatial and temporal locality.
+
+**Why it matters:**  
+Modern processors exploit locality through multiple levels of cache to reduce the effective cost of memory access.
+
+**Tags:** `architecture`, `CPU`, `cache`
+
+---
