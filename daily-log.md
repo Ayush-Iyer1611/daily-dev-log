@@ -869,3 +869,16 @@ Modern processors exploit locality through multiple levels of cache to reduce th
 **Tags:** `architecture`, `CPU`, `cache`
 
 ---
+
+## 2026-10-15
+
+### Git — Git Branches
+
+A Git branch is essentially a movable reference to a commit. Creating a branch is therefore inexpensive compared with duplicating an entire repository.
+
+**Why it matters:**  
+This lightweight branching model enables parallel development and experimentation.
+
+**Tags:** `git`, `branches`, `version-control`
+
+---
