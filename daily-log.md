@@ -882,3 +882,16 @@ This lightweight branching model enables parallel development and experimentatio
 **Tags:** `git`, `branches`, `version-control`
 
 ---
+
+## 2026-10-16
+
+### Quantum Computing — Quantum Measurement
+
+Measurement maps a quantum state to a classical outcome according to probabilities determined by the state's amplitudes.
+
+**Why it matters:**  
+Understanding measurement is essential because quantum algorithms ultimately need to extract classical information from a quantum system.
+
+**Tags:** `quantum-computing`, `measurement`, `quantum-mechanics`
+
+---
