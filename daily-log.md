@@ -895,3 +895,16 @@ Understanding measurement is essential because quantum algorithms ultimately nee
 **Tags:** `quantum-computing`, `measurement`, `quantum-mechanics`
 
 ---
+
+## 2026-10-17
+
+### Operating Systems — Process vs Thread
+
+A process is an independent execution environment with its own address space, while threads within a process share that process's memory resources.
+
+**Why it matters:**  
+Understanding this distinction is fundamental to concurrency, scheduling, and application architecture.
+
+**Tags:** `operating-systems`, `threads`, `processes`
+
+---
