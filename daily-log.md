@@ -934,3 +934,16 @@ ZNE is one of the major techniques used to extract more useful information from 
 **Tags:** `quantum-computing`, `QEM`, `ZNE`
 
 ---
+
+## 2026-10-20
+
+### Operating Systems — Virtual Memory
+
+Virtual memory provides processes with an abstraction of a large, private address space while the operating system and hardware map virtual addresses onto physical memory.
+
+**Why it matters:**  
+It provides isolation, simplifies memory management, and allows systems to use storage as an extension of physical memory.
+
+**Tags:** `operating-systems`, `memory`, `OS`
+
+---
