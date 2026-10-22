@@ -960,3 +960,16 @@ Its logarithmic time complexity makes it dramatically more scalable than linear 
 **Tags:** `algorithms`, `search`, `complexity`
 
 ---
+
+## 2026-10-22
+
+### Algorithms — Big-O Complexity
+
+Big-O notation describes an asymptotic upper bound on how the resource requirements of an algorithm grow as its input size increases.
+
+**Why it matters:**  
+Complexity analysis provides a common language for comparing algorithmic scalability.
+
+**Tags:** `algorithms`, `complexity`, `computer-science`
+
+---
