@@ -999,3 +999,16 @@ This lightweight branching model enables parallel development and experimentatio
 **Tags:** `git`, `branches`, `version-control`
 
 ---
+
+## 2026-10-25
+
+### Networking — TCP vs UDP
+
+TCP provides connection-oriented, reliable and ordered byte-stream delivery, while UDP provides a lightweight datagram-oriented transport without TCP's reliability guarantees.
+
+**Why it matters:**  
+The choice between them depends heavily on whether reliability or low overhead and latency are the dominant requirements.
+
+**Tags:** `networking`, `TCP`, `UDP`
+
+---
