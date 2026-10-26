@@ -1012,3 +1012,16 @@ The choice between them depends heavily on whether reliability or low overhead a
 **Tags:** `networking`, `TCP`, `UDP`
 
 ---
+
+## 2026-10-26
+
+### Cybersecurity — Hash Functions
+
+A cryptographic hash function maps arbitrary input data to a fixed-size digest and is designed to make finding collisions or reversing the input computationally difficult.
+
+**Why it matters:**  
+Cryptographic hashes are fundamental to integrity verification, password storage systems, and many security protocols.
+
+**Tags:** `cybersecurity`, `cryptography`, `hashing`
+
+---
