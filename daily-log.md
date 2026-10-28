@@ -1038,3 +1038,16 @@ Entanglement is central to protocols such as quantum teleportation, superdense c
 **Tags:** `quantum-computing`, `entanglement`, `quantum-information`
 
 ---
+
+## 2026-10-28
+
+### Quantum Computing — Quantum Error Mitigation
+
+Quantum error mitigation attempts to reduce the effect of noise in computation results without necessarily performing full fault-tolerant error correction.
+
+**Why it matters:**  
+QEM is particularly relevant to noisy intermediate-scale quantum devices where hardware noise remains significant.
+
+**Tags:** `quantum-computing`, `QEM`, `NISQ`
+
+---
