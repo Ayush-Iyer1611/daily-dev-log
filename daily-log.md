@@ -1103,3 +1103,16 @@ Cryptographic hashes are fundamental to integrity verification, password storage
 **Tags:** `cybersecurity`, `cryptography`, `hashing`
 
 ---
+
+## 2026-11-02
+
+### Artificial Intelligence — Gradient Descent
+
+Gradient descent iteratively adjusts model parameters in the direction that decreases an objective function.
+
+**Why it matters:**  
+It is one of the foundational optimization techniques behind the training of many machine-learning models.
+
+**Tags:** `AI`, `machine-learning`, `optimization`
+
+---
