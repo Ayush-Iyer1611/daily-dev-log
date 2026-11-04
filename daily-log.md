@@ -1129,3 +1129,16 @@ It is one of the foundational optimization techniques behind the training of man
 **Tags:** `AI`, `machine-learning`, `optimization`
 
 ---
+
+## 2026-11-04
+
+### Quantum Computing — Quantum Measurement
+
+Measurement maps a quantum state to a classical outcome according to probabilities determined by the state's amplitudes.
+
+**Why it matters:**  
+Understanding measurement is essential because quantum algorithms ultimately need to extract classical information from a quantum system.
+
+**Tags:** `quantum-computing`, `measurement`, `quantum-mechanics`
+
+---
