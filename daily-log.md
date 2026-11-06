@@ -1155,3 +1155,16 @@ Lazy evaluation can significantly reduce memory usage when processing large or s
 **Tags:** `python`, `generators`, `programming`
 
 ---
+
+## 2026-11-06
+
+### Algorithms — Binary Search
+
+Binary search repeatedly divides a sorted search interval in half, eliminating approximately half of the remaining candidates after each comparison.
+
+**Why it matters:**  
+Its logarithmic time complexity makes it dramatically more scalable than linear search for large sorted datasets.
+
+**Tags:** `algorithms`, `search`, `complexity`
+
+---
