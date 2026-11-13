@@ -1246,3 +1246,16 @@ QEM is particularly relevant to noisy intermediate-scale quantum devices where h
 **Tags:** `quantum-computing`, `QEM`, `NISQ`
 
 ---
+
+## 2026-11-13
+
+### Algorithms — Binary Search
+
+Binary search repeatedly divides a sorted search interval in half, eliminating approximately half of the remaining candidates after each comparison.
+
+**Why it matters:**  
+Its logarithmic time complexity makes it dramatically more scalable than linear search for large sorted datasets.
+
+**Tags:** `algorithms`, `search`, `complexity`
+
+---
