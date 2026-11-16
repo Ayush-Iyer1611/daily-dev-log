@@ -1285,3 +1285,16 @@ This lightweight branching model enables parallel development and experimentatio
 **Tags:** `git`, `branches`, `version-control`
 
 ---
+
+## 2026-11-16
+
+### Quantum Computing — Quantum Error Mitigation
+
+Quantum error mitigation attempts to reduce the effect of noise in computation results without necessarily performing full fault-tolerant error correction.
+
+**Why it matters:**  
+QEM is particularly relevant to noisy intermediate-scale quantum devices where hardware noise remains significant.
+
+**Tags:** `quantum-computing`, `QEM`, `NISQ`
+
+---
