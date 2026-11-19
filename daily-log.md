@@ -1324,3 +1324,16 @@ Understanding measurement is essential because quantum algorithms ultimately nee
 **Tags:** `quantum-computing`, `measurement`, `quantum-mechanics`
 
 ---
+
+## 2026-11-19
+
+### Cybersecurity — Hash Functions
+
+A cryptographic hash function maps arbitrary input data to a fixed-size digest and is designed to make finding collisions or reversing the input computationally difficult.
+
+**Why it matters:**  
+Cryptographic hashes are fundamental to integrity verification, password storage systems, and many security protocols.
+
+**Tags:** `cybersecurity`, `cryptography`, `hashing`
+
+---
