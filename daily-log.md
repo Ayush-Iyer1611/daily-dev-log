@@ -1389,3 +1389,16 @@ Entanglement is central to protocols such as quantum teleportation, superdense c
 **Tags:** `quantum-computing`, `entanglement`, `quantum-information`
 
 ---
+
+## 2026-11-24
+
+### Python — Python Generators
+
+Generators produce values lazily using iteration rather than constructing the entire result in memory at once.
+
+**Why it matters:**  
+Lazy evaluation can significantly reduce memory usage when processing large or streaming datasets.
+
+**Tags:** `python`, `generators`, `programming`
+
+---
